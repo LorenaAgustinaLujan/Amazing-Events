@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(249, 249, 249);
+}
+
+main {
+    min-height: 90vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(152, 152, 152);
+    padding: 10px;
+}
+
+.logo {
+    width: 170px;
+}
+
+.nav-link {
+    color: rgb(36, 36, 36);
+    font-size: medium;
+}
+
+.slider {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(206, 205, 205);
+}
+
+.slider a {
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(56, 56, 56);
+}
+
+.slider h1 {
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.categoria {
+    display: flex;
+    margin: 30px;
+    align-items: baseline;
+}
+
+.container {
+    padding: 10px;
+    display: flex;
+    gap: 40px 80px;
+}
+
+.container1 {
+    padding: 10px;
+    display: flex;
+   flex-direction: row;
+    flex-direction:row-reverse;
+    gap: 80px;
+}
+
+.card {
+    padding: 10px;
+}
+
+footer {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(181, 181, 181);
+    color: rgb(56, 56, 56);
+}
+
+footer svg {
+    width: 30px;
+}
+
+.iconos {
+    display: flex;
+    gap: 20px;
+    width: 20px;
+}
+
+.iconos a {
+    color: rgb(204, 0, 126);
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0px 50px 0px;
+}
+
+.formulario label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formulario input {
+    width: 450px;
+}
+
+.formulario span {
+    font-size: medium;
+}
+
+.boton {
+    margin-top: 20px;
+    display: flex;
+    justify-content: end;
+    font-size: x-large;
+}
+
+.texto h2 {
+    font-size: larger;
+    color: rgb(204, 0, 126);
+}
+
+.tabla {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+th {
+    font-size: x-large;
+    background-color: rgb(172, 172, 172);
+    font-weight: normal;
+    border: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.details {
+    height: 100%;
+    width: 100%;
+
+}
+
+.move {
+    display: flex;
+    gap: 500px;
+
+}
+
+.move1 {
+    gap: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.move1 h4 {
+    flex-grow: 1;
+    width: 500px;
+    gap: 20px;
+}
