@@ -16,7 +16,7 @@ nav {
     display: flex;
     justify-content: space-around;
     background-color: rgb(152, 152, 152);
-    padding: 10px;
+    padding: 15px;
 }
 
 .logo {
@@ -30,7 +30,7 @@ nav {
 
 .slider {
     width: 100%;
-    padding: 10px;
+    padding: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,6 +38,11 @@ nav {
 }
 
 .slider a {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-weight: bold;
     font-size: 25px;
     text-decoration: none;
@@ -48,6 +53,11 @@ nav {
     font-size: 25px;
     display: flex;
     align-items: center;
+    padding: 3px;
+    justify-content:space-around;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(56, 56, 56);
 }
 
 .categoria {
@@ -59,19 +69,40 @@ nav {
 .container {
     padding: 10px;
     display: flex;
-    gap: 40px 80px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: baseline;
 }
-
+.container img{
+    height: max-content;
+    width: max-content;
+    box-shadow: 5px 5px 5px 3px rgb(139, 138, 138);
+}
 .container1 {
-    padding: 10px;
+    padding: 80px;
     display: flex;
-   flex-direction: row;
-    flex-direction:row-reverse;
-    gap: 80px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+} 
+
+.container1 img{
+height:325px;
+width: 400px;
+align-items: center;
+flex-wrap: wrap;
+box-shadow: 5px 5px 5px 3px rgb(139, 138, 138);
 }
 
 .card {
-    padding: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    row-gap: 70px;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 footer {
@@ -150,29 +181,14 @@ td {
     border: 1px solid black;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .details {
     height: 100%;
     width: 100%;
-
 }
 
 .move {
     display: flex;
     gap: 500px;
-
 }
 
 .move1 {
@@ -180,10 +196,6 @@ td {
     display: flex;
     justify-content: center;
     align-items: center;
-
-}
-
-.move1 h4 {
     flex-grow: 1;
     width: 500px;
     gap: 20px;
