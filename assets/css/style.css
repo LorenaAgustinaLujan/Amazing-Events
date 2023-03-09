@@ -38,7 +38,6 @@ nav {
 }
 
 .slider a {
-    width: 100%;
     padding: 10px;
     display: flex;
     align-items: center;
@@ -67,42 +66,28 @@ nav {
 }
 
 .container {
-    padding: 10px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-self: baseline;
+    flex-wrap: wrap;
 }
+
 .container img{
-    height: max-content;
-    width: max-content;
-    box-shadow: 5px 5px 5px 3px rgb(139, 138, 138);
+    box-shadow: 3px 3px 3px 3px rgb(174, 174, 174);
+    margin: 10px;
+    border-radius: 5px;
+    width: 90%;
 }
-.container1 {
+
+/* .container1 {
     padding: 80px;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
-    flex-wrap: wrap;
-} 
+}  */
 
-.container1 img{
-height:325px;
-width: 400px;
-align-items: center;
-flex-wrap: wrap;
-box-shadow: 5px 5px 5px 3px rgb(139, 138, 138);
-}
-
-.card {
-    padding: 20px;
-    display: flex;
-    justify-content: center;
+.card{
+    margin: 20px;
     align-items: center;
-    row-gap: 70px;
-    align-items: center;
-    flex-wrap: wrap;
 }
 
 footer {
@@ -187,8 +172,13 @@ td {
 }
 
 .move {
-    display: flex;
-    gap: 500px;
+    display: flex;   
+    justify-content: space-between;
+    width: 100%;
+}
+
+.move h1{
+    flex-grow: 1;
 }
 
 .move1 {
@@ -199,4 +189,16 @@ td {
     flex-grow: 1;
     width: 500px;
     gap: 20px;
+}
+
+.row.g-0 {
+    flex-wrap: nowrap;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.col-md-8 {
+    flex:content;
+    width: 50%;
+    align-items:end;
 }
