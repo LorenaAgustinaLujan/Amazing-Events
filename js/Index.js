@@ -1,3 +1,5 @@
+console.log([document])
+
 function displayAllEvents(data) {
   let indexEvents = "";
   for (let event of data.events) {
@@ -6,7 +8,6 @@ function displayAllEvents(data) {
   document.getElementById("cards").innerHTML = indexEvents;
 }
 
-console.log([document])
 function crearCheckbox() {
   const todasLasCategorias = data.events.map(evento => evento.category);
   const categoriasUnicas = [...new Set(todasLasCategorias)];
@@ -41,5 +42,8 @@ function crearCheckbox() {
 }
 crearCheckbox();
 displayAllEvents(data);
+
+
+
 
 

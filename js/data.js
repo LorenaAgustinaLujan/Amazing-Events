@@ -68,7 +68,7 @@ let data = {
       "date": "2022-02-12",
       "description": "Come with your scariest costume and win incredible prizes.",
       "category": "Costume Party",
-      "place": "Room C",
+      "place": " Room C",
       "capacity": 12000,
       "estimate": 9000,
       "price": 12
@@ -179,10 +179,24 @@ function createcard(events) {
                 <div class="card-body">
                 <h5 class="card-title">${events.name}</h5>
                 <p class="card-text">${events.description}</p>
-                <a href="./details.html" class="btn btn-primary">Ver Mas</a>
+                <a href="./details.html?id=${events._id}" class="btn btn-primary">Ver Mas</a>
             </div>
         </div>
-  </div>`
+  </div> `
 }
 
+/* let categories = [];
+data.events.forEach(evento => {
+  if (!categories.includes(evento.category)){
+    categories.push(evento.category)
+  }
+});
+console.log(categories); 
 
+
+function crearCheckbox(category) {
+  return `<div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="checkbox${category}" value="${category}" name="category">
+  <label class="form-check-label" for="checkbox${category}">${category}</label>
+</div>`;
+}  */

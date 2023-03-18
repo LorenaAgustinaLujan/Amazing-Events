@@ -17,7 +17,7 @@ function crearCheckbox() {
                  <input class="form-check-input" type="checkbox" id="${category}" value="${category}">
                  <label class="form-check-label" for="${category}">${category}</label>
                </div>`;
-  
+K
     }).join('');
     document.getElementById("checkboxes").innerHTML = inputCheckbox;
   
@@ -41,8 +41,10 @@ function crearCheckbox() {
       displayAllEvents({ events: filteredEvents });
     });
   }
+  
   crearCheckbox();
   displayAllEvents(data);
-  
-  
+
+
+
   
