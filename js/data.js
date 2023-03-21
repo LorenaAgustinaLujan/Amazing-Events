@@ -200,3 +200,5 @@ function crearCheckbox(category) {
   <label class="form-check-label" for="checkbox${category}">${category}</label>
 </div>`;
 }  */
+
+

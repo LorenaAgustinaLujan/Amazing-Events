@@ -15,7 +15,7 @@ main {
 nav {
     display: flex;
     justify-content: space-around;
-    background-color:  rgb(253, 209, 235);
+    background-color:  rgb(177, 201, 221);
     padding: 15px;
 }
 
@@ -34,7 +34,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(249, 160, 212);
+    background-color: rgb(57, 111, 248);
 }
 
 .slider a {
@@ -45,7 +45,7 @@ nav {
     font-weight: bold;
     font-size: 25px;
     text-decoration: none;
-    color: rgb(56, 56, 56);
+    color: rgb(255, 255, 255);
 }
 
 .slider h1 {
@@ -56,7 +56,7 @@ nav {
     justify-content:space-around;
     font-weight: bold;
     font-size: 25px;
-    color: rgb(56, 56, 56);
+    color: rgb(255, 255, 255);
 }
 
 .categoria {
@@ -69,6 +69,7 @@ nav {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+;
 }
 
 .container img{
@@ -88,14 +89,14 @@ nav {
 .card{
     margin: 20px;
     align-items: center;
+    height: 400px;
 }
 
 footer {
     height: 70px;
     display: flex;
     justify-content: space-between;
-    background-color:rgb(253, 209, 235);
-    color: rgb(56, 56, 56);
+    background-color: rgb(57, 111, 248);
 }
 
 footer svg {
@@ -109,7 +110,7 @@ footer svg {
 }
 
 .iconos a {
-    color:rgb(62, 62, 62);
+    color:rgb(255, 254, 254);
 }
 
 .formulario {
@@ -142,7 +143,7 @@ footer svg {
 
 .texto h2 {
     font-size: larger;
-    color: rgb(62, 62, 62);
+    color: rgb(250, 250, 250);
 }
 
 .tabla {
